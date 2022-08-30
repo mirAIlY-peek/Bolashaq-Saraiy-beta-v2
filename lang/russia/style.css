@@ -3218,7 +3218,7 @@ ul {
 .learning_part {
   position: relative;
   z-index: 99;
-  padding: 189px 0px 210px;
+  padding: 129px 0px 210px;
 }
 
 @media (max-width: 576px) {
@@ -3865,7 +3865,9 @@ select option ::before{
   color: #fff;
   font-style: "Poppins", sans-serif;
 }
-
+.mIRAS{
+  color: white !important;
+}
 @media (max-width: 576px) {
   /* line 49, E:/172 Etrain Education/172_Etrain_Education_html/sass/_member_counter.scss */
   .member_counter .single_member_counter span {

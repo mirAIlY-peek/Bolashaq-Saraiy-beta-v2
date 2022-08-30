@@ -16,6 +16,8 @@
     <!-- themify CSS -->
     <link rel="stylesheet" href="../../css/themify-icons.css">
     <!-- flaticon CSS -->
+    <link rel="stylesheet" href="../../css/nice-select.css">
+
     <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
     <!-- font awesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
@@ -24,8 +26,13 @@
     <!-- style CSS -->
     <link rel="stylesheet" href="../../css/style.css">
 </head>
-
+<style>
+    .nice-select{
+        color: white;
+    }
+</style>
 <body>
+
     <!--::header part start::-->
     <header class="main_menu single_page_menu">
         <div class="container">
@@ -44,31 +51,32 @@
                             id="navbarSupportedContent">
                             <ul class="navbar-nav align-items-center">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home</a>
+                                    <a class="nav-link " href="index.html" style="color: white">Главная</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about.RU.html">About</a>
+                                    <a class="nav-link" href="about.RU.html">Bolashaq saraiy</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="cource.html">Courses</a>
+                                    <a class="nav-link" href="cource.html">Курсы</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="blog.html">Blog</a>
+                                    <a class="nav-link" href="blog.html">События</a>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Pages
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="single-blog.html">Single blog</a>
-                                        <a class="dropdown-item" href="elements.html">Elements</a>
-                                    </div>
-                                </li>
+
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="contact.html">Контакт</a>
                                 </li>
+
+                                <select name="lang" id="lang" style="color: white">
+                                    <option  value="/lo/LANG/russia/" style="color: white">RU</option>
+                                    <option style="color: #ffffff" value="/lo/LANG/english/">ENG</option>
+                                    <option style="color: white" value="/lo/LANG/kazakh/">KAZ</option>
+                                </select>
+
+
+
                                 <li class="d-none d-lg-block">
-                                    <a class="btn_1" href="#">Get a Quote</a>
+                                    <a class="btn_1" href="#">Записаться</a>
                                 </li>
                             </ul>
                         </div>
@@ -86,8 +94,8 @@
                 <div class="col-lg-12">
                     <div class="breadcrumb_iner text-center">
                         <div class="breadcrumb_iner_item">
-                            <h2>About Us</h2>
-                            <p>Home<span>/</span>About Us</p>
+                            <h2>Bolashaq Saraiy</h2>
+                            <p>Главная<span>/</span>Bolashaq Saraiy</p>
                         </div>
                     </div>
                 </div>
@@ -97,24 +105,23 @@
     <!-- breadcrumb start-->
 
     <!-- feature_part start-->
-    <section class="feature_part single_feature_padding">
+    <!-- feature_part start-->
+    <section class="feature_part">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-xl-3 align-self-center">
                     <div class="single_feature_text ">
-                        <h2>Awesome <br> Feature</h2>
-                        <p>Set have great you male grass yielding an yielding first their you're
-                            have called the abundantly fruit were man </p>
-                        <a href="#" class="btn_1">Read More</a>
+                        <h2>Потрясающий<br> Особенность</h2>
+                        <p> Создание уникальной платформы для развития творческого искусства, спорта с совершенствованием личностного и научно-технического потенциала посредством инновационных технологий и научных исследований, а также критического,креативного мышления.</p>
+                        <a href="#" class="btn_1">Читать далее</a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-xl-3">
                     <div class="single_feature">
                         <div class="single_feature_part">
                             <span class="single_feature_icon"><i class="ti-layers"></i></span>
-                            <h4>Better Future</h4>
-                            <p>Set have great you male grasses yielding yielding first their to
-                                called deep abundantly Set have great you male</p>
+                            <h4>Лучшее будущее</h4>
+                            <p>будущем планирует внести свой вклад в развитие искусства, спорта, научно-технического развития страны.</p>
                         </div>
                     </div>
                 </div>
@@ -122,9 +129,8 @@
                     <div class="single_feature">
                         <div class="single_feature_part">
                             <span class="single_feature_icon"><i class="ti-new-window"></i></span>
-                            <h4>Qualified Trainers</h4>
-                            <p>Set have great you male grasses yielding yielding first their to called
-                                deep abundantly Set have great you male</p>
+                            <h4>Квалифицированные тренеры</h4>
+                            <p></p>
                         </div>
                     </div>
                 </div>
@@ -132,7 +138,7 @@
                     <div class="single_feature">
                         <div class="single_feature_part single_feature_part_2">
                             <span class="single_service_icon style_icon"><i class="ti-light-bulb"></i></span>
-                            <h4>Job Oppurtunity</h4>
+                            <h4>Вакансия</h4>
                             <p>Set have great you male grasses yielding yielding first their to called deep
                                 abundantly Set have great you male</p>
                         </div>
@@ -154,19 +160,14 @@
                 </div>
                 <div class="col-md-5 col-lg-5">
                     <div class="learning_member_text">
-                        <h5>About us</h5>
-                        <h2>Learning with Love
-                            and Laughter</h2>
-                        <p>Fifth saying upon divide divide rule for deep their female all hath brind Days and beast
-                            greater grass signs abundantly have greater also
-                            days years under brought moveth.</p>
+                        <h5>Воlаshаq saraiy</h5>
+                        <h2>Учиться с любовью и смехом</h2>
+                        <p>Совершенствование качества системы дополнительного образования, направленной на обеспечение массового охвата детей, молодежи дополнительным образованием и равного доступа к образовательным услугам.</p>
                         <ul>
-                            <li><span class="ti-pencil-alt"></span>Him lights given i heaven second yielding seas
-                                gathered wear</li>
-                            <li><span class="ti-ruler-pencil"></span>Fly female them whales fly them day deep given
-                                night.</li>
+                            <li><span class="ti-pencil-alt"></span>Предприятие в будущем планирует внести свой вклад в развитие искусства</li>
+                            <li><span class="ti-ruler-pencil"></span>Воспитание наиболее адаптированной молодежи к глобальной конкуренции</li>
                         </ul>
-                        <a href="#" class="btn_1">Read More</a>
+                        <a href="#" class="btn_1">Читать далее</a>
                     </div>
                 </div>
             </div>
@@ -180,26 +181,26 @@
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_member_counter">
-                        <span class="counter">1024</span>
-                        <h4>All Teachers</h4>
+                        <span class="counter">102</span>
+                        <h4>Все Учителя</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_member_counter">
+                        <span class="counter">36</span>
+                        <h4>Сертифицированные Курсы</h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_member_counter">
                         <span class="counter">960</span>
-                        <h4> All Students</h4>
+                        <h4> Все Студенты</h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_member_counter">
-                        <span class="counter">1020</span>
-                        <h4>Online Students</h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single_member_counter">
-                        <span class="counter">820</span>
-                        <h4>Ofline Students</h4>
+                        <span class="counter">100</span><span>%</span>
+                        <h4>Довольные родители</h4>
                     </div>
                 </div>
             </div>
@@ -208,13 +209,159 @@
     <!-- member_counter counter end -->
 
     <!--::review_part start::-->
-    <section class="testimonial_part section_padding">
+    <section class="special_cource padding_top">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-5">
+                    <div class="section_tittle text-center">
+                        <p>Популярные курсы</p>
+                        <h2>Специальные курсы</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_special_cource">
+                        <img src="../../img/special_cource_1.png" class="special_img" alt="">
+                        <div class="special_cource_text">
+                            <a href="course-details.html" class="btn_4">Зеленая энергия</a>
+                            <h4>Free</h4>
+                            <a href="course-details.html"><h3>Зеленая энергия</h3></a>
+                            <p>Клуб энергетиков «Green energy» направлен на обучение и понимание фундаментальных принципов и законов получения энергии возобновляемыми источниками энергии </p>
+                            <div class="author_info">
+                                <div class="author_img">
+                                    <img src="../../img/author/author_1.png" alt="">
+                                    <div class="author_info_text">
+                                        <p>Проведение:</p>
+                                        <h5><a href="#">Мирас</a></h5>
+                                    </div>
+                                </div>
+                                <div class="author_rating">
+                                    <div class="rating">
+                                        <a href="#"><img src="../../img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="../../img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="../../img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="../../img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="../../img/icon/star.svg" alt=""></a>
+                                    </div>
+                                    <p>5 Ratings</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_special_cource">
+                        <img src="../../img/special_cource_2.png" class="special_img" alt="">
+                        <div class="special_cource_text">
+                            <a href="course-details.html" class="btn_4">Web основы</a>
+                            <h4>Free</h4>
+                            <a href="course-details.html"> <h3>Web основы</h3></a>
+                            <p>Обучение формированию компьютерной грамотности создания Web-страниц</p>
+                            <div class="author_info">
+                                <div class="author_img">
+                                    <img src="../../img/author/author_2.png" alt="">
+                                    <div class="author_info_text">
+                                        <p>Проведение:</p>
+                                        <h5><a href="#">Мухтрахан</a></h5>
+                                    </div>
+                                </div>
+                                <div class="author_rating">
+                                    <div class="rating">
+                                        <a href="#"><img src="../../img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="../../img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="../../img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="../../img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="../../img/icon/star.svg" alt=""></a>
+                                    </div>
+                                    <p>5 Ratings</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_special_cource">
+                        <img src="../../img/special_cource_3.png" class="special_img" alt="">
+                        <div class="special_cource_text">
+                            <a href="course-details.html" class="btn_4">Экологический мониторинг</a>
+                            <h4>Free</h4>
+                            <a href="course-details.html">  <h3>Экологический мониторинг</h3> </a>
+                            <p>Научить детей и студентов методикам проведения исследований в сфере экологии и защиты окружающей среды.</p>
+                            <div class="author_info">
+                                <div class="author_img">
+                                    <img src="../../img/author/author_3.png" alt="">
+                                    <div class="author_info_text">
+                                        <p>Проведение:</p>
+                                        <h5><a href="#">Асет</a></h5>
+                                    </div>
+                                </div>
+                                <div class="author_rating">
+                                    <div class="rating">
+                                        <a href="#"><img src="../../img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="../../img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="../../img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="../../img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="../../img/icon/star.svg" alt=""></a>
+                                    </div>
+                                    <p>3.8 Ratings</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--::blog_part end::-->
+
+    <!-- learning part start-->
+    <section class="advance_feature learning_part">
+        <div class="container">
+            <div class="row align-items-sm-center align-items-xl-stretch">
+                <div class="col-md-6 col-lg-6">
+                    <div class="learning_member_text">
+                        <h5>РАСШИРЕННАЯ ФУНКЦИЯ</h5>
+                        <h2>Наша система повышения квалификации преподавателей</h2>
+                        <p>В рамках ценностей «Мәңгілік Ел» и программы «Рухани жаңғыру» предусматривается координация работы детей и подростков и молодежи в возрождении общественного сознания независимого Казахстана. </p>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-12 col-lg-6">
+                                <div class="learning_member_text_iner">
+                                    <span class="ti-pencil-alt"></span>
+                                    <h4>Учитесь где угодно</h4>
+                                    <p>организация обмена опытом между представителями региональных организаций</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-12 col-lg-6">
+                                <div class="learning_member_text_iner">
+                                    <span class="ti-stamp"></span>
+                                    <h4>Учитель-эксперт</h4>
+                                    <p>развитие волонтерской работы, лидерских качеств, предпринимательского образования.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="learning_img">
+                        <img src="../../img/advance_feature_img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- learning part end-->
+
+    <!--::review_part start::-->
+    <section class="testimonial_part">
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-xl-5">
                     <div class="section_tittle text-center">
-                        <p>tesimonials</p>
-                        <h2>Happy Students</h2>
+                        <h2>Счастливые студенты</h2>
                     </div>
                 </div>
             </div>
@@ -225,11 +372,9 @@
                             <div class="row">
                                 <div class="col-lg-8 col-xl-4 col-sm-8 align-self-center">
                                     <div class="testimonial_slider_text">
-                                        <p>Behold place was a multiply creeping creature his domin to thiren open void
-                                            hath herb divided divide creepeth living shall i call beginning
-                                            third sea itself set</p>
-                                        <h4>Michel Hashale</h4>
-                                        <h5> Sr. Web designer</h5>
+                                        <p>Огромное спасибо за атмосферу. Очень важно видеть довольного ребенка, преисполненного желанием приходить и учиться. Нам, родителям очень важно видеть как ребенок с удовольствием посещает школу. </p>
+                                        <h4>Мирас Курал</h4>
+                                        <h5>Веб Основы</h5>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-xl-2 col-sm-4">
@@ -239,11 +384,9 @@
                                 </div>
                                 <div class="col-xl-4 d-none d-xl-block">
                                     <div class="testimonial_slider_text">
-                                        <p>Behold place was a multiply creeping creature his domin to thiren open void
-                                            hath herb divided divide creepeth living shall i call beginning
-                                            third sea itself set</p>
-                                        <h4>Michel Hashale</h4>
-                                        <h5> Sr. Web designer</h5>
+                                        <p>Больше всего запомнились доброжелательные учителя и душевная обстановка</p>
+                                        <h4>Мухтархан</h4>
+                                        <h5>Веб Основы</h5>
                                     </div>
                                 </div>
                                 <div class="col-xl-2 d-none d-xl-block">
@@ -257,25 +400,22 @@
                             <div class="row">
                                 <div class="col-lg-8 col-xl-4 col-sm-8 align-self-center">
                                     <div class="testimonial_slider_text">
-                                        <p>Behold place was a multiply creeping creature his domin to thiren open void
-                                            hath herb divided divide creepeth living shall i call beginning
-                                            third sea itself set</p>
-                                        <h4>Michel Hashale</h4>
-                                        <h5> Sr. Web designer</h5>
+                                        <p>Лучший учитель школы))
+                                            Добрый день, уважаемая администрация! От всей души хотим поблагодарить нашего учителя Полину Геннадьевну Васильеву — высококвалифицированного специалиста.</p>
+                                        <h4>Арман</h4>
+                                        <h5>Зеленый инженер</h5>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-xl-2 col-sm-4">
                                     <div class="testimonial_slider_img">
-                                        <img src="../../img/testimonial_img_1.png" alt="#">
+                                        <img src="../../img/testimonial_img_2.png" alt="#">
                                     </div>
                                 </div>
                                 <div class="col-xl-4 d-none d-xl-block">
                                     <div class="testimonial_slider_text">
-                                        <p>Behold place was a multiply creeping creature his domin to thiren open void
-                                            hath herb divided divide creepeth living shall i call beginning
-                                            third sea itself set</p>
-                                        <h4>Michel Hashale</h4>
-                                        <h5> Sr. Web designer</h5>
+                                        <p>Спасибо этой замечательной школе! Мы были вместе 3 года и это было интересное время. Учителя очень внимательны и доброжелательны. Администрация школы предлагает удобные режимы обучения, применительно к индивидуальным особенностям каждого ученика.</p>
+                                        <h4>Жанибек</h4>
+                                        <h5>Javascript</h5>
                                     </div>
                                 </div>
                                 <div class="col-xl-2 d-none d-xl-block">
@@ -289,16 +429,14 @@
                             <div class="row">
                                 <div class="col-lg-8 col-xl-4 col-sm-8 align-self-center">
                                     <div class="testimonial_slider_text">
-                                        <p>Behold place was a multiply creeping creature his domin to thiren open void
-                                            hath herb divided divide creepeth living shall i call beginning
-                                            third sea itself set</p>
-                                        <h4>Michel Hashale</h4>
-                                        <h5> Sr. Web designer</h5>
+                                        <p>Спасибо этой замечательной школе! Мы были вместе 9 лет и это было интересное время. Учителя очень внимательны и доброжелательны. Администрация школы предлагает удобные режимы обучения.</p>
+                                        <h4>Максат</h4>
+                                        <h5>Веб Дизайн</h5>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-xl-2 col-sm-4">
                                     <div class="testimonial_slider_img">
-                                        <img src="../../img/testimonial_img_1.png" alt="#">
+                                        <img src="../../img/testimonial_img_3.png" alt="#">
                                     </div>
                                 </div>
                                 <div class="col-xl-4 d-none d-xl-block">
@@ -325,6 +463,77 @@
     </section>
     <!--::blog_part end::-->
 
+    <!--::blog_part start::-->
+    <section class="blog_part section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-5">
+                    <div class="section_tittle text-center">
+                        <p>События</p>
+                        <h2>Студенческий блог</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 col-xl-4">
+                    <div class="single-home-blog">
+                        <div class="card">
+                            <img src="../../img/blog/blog_1.png" class="card-img-top" alt="blog">
+                            <div class="card-body">
+                                <a href="#" class="btn_4">Дизайн</a>
+                                <a href="blog.html">
+                                    <h5 class="card-title">ученики научатся создавать дизайн сайта с помощью инструментальных средств.</h5>
+                                </a>
+                                <p>Процесс создания Web-сайта творческий и увлекательный, поэтому данный курс</p>
+                                <ul>
+                                    <li> <span class="ti-comments"></span>2 комментарий</li>
+                                    <li> <span class="ti-heart"></span>2k лайков</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-4">
+                    <div class="single-home-blog">
+                        <div class="card">
+                            <img src="../../img/blog/blog_2.png" class="card-img-top" alt="blog">
+                            <div class="card-body">
+                                <a href="#" class="btn_4">Фом-флористика</a>
+                                <a href="blog.html">
+                                    <h5 class="card-title">трудолюбия и ответственного отношения</h5>
+                                </a>
+                                <p>Развитие навыков коллективно — творческой деятельности. Развитие творческого воображения</p>
+                                <ul>
+                                    <li> <span class="ti-comments"></span>2 комментарий</li>
+                                    <li> <span class="ti-heart"></span>2k лайков</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-4">
+                    <div class="single-home-blog">
+                        <div class="card">
+                            <img src="../../img/blog/blog_3.png" class="card-img-top" alt="blog">
+                            <div class="card-body">
+                                <a href="#" class="btn_4">Гончарная студия</a>
+                                <a href="blog.html">
+                                    <h5 class="card-title">художественного вкуса</h5>
+                                </a>
+                                <p>Приобщение детей к общественно полезной деятельности, воспитание у них интереса будет  на основе приемов и методов лепки.У них формируется умения и навыки работы с пластическим материалом</p>
+                                <ul>
+                                    <li> <span class="ti-comments"></span>2 комментарий</li>
+                                    <li> <span class="ti-heart"></span>2k лайов</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--::blog_part end::-->
+
     <!-- footer part start-->
     <footer class="footer-area">
         <div class="container">
@@ -332,22 +541,20 @@
                 <div class="col-sm-6 col-md-4 col-xl-3">
                     <div class="single-footer-widget footer_1">
                         <a href="index.html"> <img src="../../img/Mirasss_logos.svg" alt=""> </a>
-                        <p>But when shot real her. Chamber her one visite removal six
-                            sending himself boys scot exquisite existend an </p>
-                        <p>But when shot real her hamber her </p>
+                        <p>Достигни своей цели вместе с Bolashaq saraіy!</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-xl-4">
                     <div class="single-footer-widget footer_2">
-                        <h4>Newsletter</h4>
-                        <p>Stay updated with our latest trends Seed heaven so said place winged over given forth fruit.
+                        <h4>Новостная рассылка</h4>
+                        <p>Будьте в курсе наших последних тенденций
                         </p>
                         <form action="#">
                             <div class="form-group">
                                 <div class="input-group mb-3">
                                     <input type="text" class="form-control" placeholder='Enter email address'
-                                        onfocus="this.placeholder = ''"
-                                        onblur="this.placeholder = 'Enter email address'">
+                                           onfocus="this.placeholder = ''"
+                                           onblur="this.placeholder = 'Enter email address'">
                                     <div class="input-group-append">
                                         <button class="btn btn_1" type="button"><i class="ti-angle-right"></i></button>
                                     </div>
@@ -364,11 +571,11 @@
                 </div>
                 <div class="col-xl-3 col-sm-6 col-md-4">
                     <div class="single-footer-widget footer_2">
-                        <h4>Contact us</h4>
+                        <h4>Свяжитесь с нами</h4>
                         <div class="contact_info">
-                            <p><span> Address :</span> Hath of it fly signs bear be one blessed after </p>
-                            <p><span> Phone :</span> +2 36 265 (8060)</p>
-                            <p><span> Email : </span>info@colorlib.com </p>
+                            <p><span> Адрес :</span>г.Кокшетау мкр.Коктем 9/1</p>
+                            <p><span> Телефон :</span> +7 716 251 01 37 </p>
+                            <p><span> Email : </span><a href="mailto:bsaqmola@mail.ru">bsaqmola@mail.ru</a> </p>
                         </div>
                     </div>
                 </div>
@@ -413,6 +620,12 @@
     <script src="../../js%20-%20does%20not%20work/waypoints.min.js"></script>
      custom js - not all inclusive
     <script src="../../js%20-%20does%20not%20work/custom.js"></script>
+    <script>
+        let Kural = document.getElementById('lang');
+        Kural.onchange = function () {
+            window.location = 'http://localhost:63342' + Kural.options[Kural.options.selectedIndex].value + 'index.html'
+        }
+    </script>
 </body>
 
 </html>
