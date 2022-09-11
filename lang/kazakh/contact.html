@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bolashaq Saraiy</title>
+    <link rel="icon" href="../../img/sdgh%201.svg">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+    <!-- themify CSS -->
+    <link rel="stylesheet" href="../../css/themify-icons.css">
+
+    <link rel="stylesheet" href="../../css/nice-select.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<style>
+    .nice-select{
+        color: white;
+    }
+    .menu_fixed .main-menu-item ul .nice-select{
+        color: #000;
+    }
+</style>
+
+<body>
+    <!--::header part start::-->
+    <header class="main_menu single_page_menu">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-12">
+                  <nav class="navbar navbar-expand-lg navbar-light">
+                      <a class="navbar-brand logo_1" href="index.html"> <img src="../../img/Mirasss_logos.svg" alt="logo"> </a>
+                      <a class="navbar-brand logo_2" href="index.html"> <img src="../../img/Mirasss_logos.svg" alt="logo"> </a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse"
+                          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                          aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+
+                      <div class="collapse navbar-collapse main-menu-item justify-content-end"
+                          id="navbarSupportedContent">
+                          <ul class="navbar-nav align-items-center">
+                              <li class="nav-item">
+                                  <a class="nav-link" href="index.html">Басты бет</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="about.RU.html">Bolashaq saraiy</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="cource.html">Курстар</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="blog.html">Жаңалықтар</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="contact.html">Байланыс</a>
+                              </li>
+
+                              <select name="lang" id="lang">
+                                  <option value="/Bolashaq-Saraiy-beta-v2-main/lang/russia/">RU</option>
+                                  <option value="/Bolashaq-Saraiy-beta-v2-main/lang/english/">ENG</option>
+                                  <option value="/Bolashaq-Saraiy-beta-v2-main/lang/kazakh/">KAZ</option>
+                              </select>
+
+
+
+                              <li class="d-none d-lg-block">
+                                  <a class="btn_1" href="#">Тіркелу</a>
+                              </li>
+                          </ul>
+                      </div>
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+    <!-- Header part end-->
+
+    <!-- breadcrumb start-->
+    <section class="breadcrumb breadcrumb_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb_iner text-center">
+                        <div class="breadcrumb_iner_item">
+                            <h2>Байланыс</h2>
+                            <p>Басты бет<span>/<span>Байланыс</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- breadcrumb start-->
+
+  <!-- ================ contact section start ================= -->
+  <section class="contact-section section_padding">
+    <div class="container">
+      <div class="d-none d-sm-block mb-5 pb-4">
+        <div id="map" style="height: 480px;"></div>
+        <script>
+          function initMap() {
+            var uluru = {lat: -25.363, lng: 131.044};
+            var grayStyles = [
+              {
+                featureType: "all",
+                stylers: [
+                  { saturation: -90 },
+                  { lightness: 50 }
+                ]
+              },
+              {elementType: 'labels.text.fill', stylers: [{color: '#ccdee9'}]}
+            ];
+            var map = new google.maps.Map(document.getElementById('map'), {
+              center: {lat: -31.197, lng: 150.744},
+              zoom: 9,
+              styles: grayStyles,
+              scrollwheel:  false
+            });
+          }
+
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&callback=initMap"></script>
+
+      </div>
+
+
+      <div class="row">
+        <div class="col-12">
+          <h2 class="contact-title">Байланысу</h2>
+        </div>
+        <div class="col-lg-8">
+          <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+            <div class="row">
+              <div class="col-12">
+                <div class="form-group">
+
+                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Хабарды енгізіңіз'" placeholder = 'Хабарды енгізіңіз'></textarea>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Атыңызды енгізіңіз'" placeholder = 'Атыңызды енгізіңіз'>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input class="form-control" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Электрондық пошта мекенжайын енгізіңіз'" placeholder = 'Электрондық пошта мекенжайын енгізіңіз'>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group">
+                  <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Тақырыпты енгізіңіз'" placeholder = 'Тақырыпты енгізіңіз'>
+                </div>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <button type="submit" class="button button-contactForm btn_1">хат жіберу</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-4">
+          <div class="media contact-info">
+            <span class="contact-info__icon"><i class="ti-home"></i></span>
+            <div class="media-body">
+              <h3>Kazakhstan.</h3>
+              <p>Kokshetau, CA 91770</p>
+            </div>
+          </div>
+          <div class="media contact-info">
+            <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+            <div class="media-body">
+              <h3>+ 708 830 16500</h3>
+              <p>Дүйсенбіден жұмаға 9-дан кешкі 6-ға дейін</p>
+            </div>
+          </div>
+          <div class="media contact-info">
+            <span class="contact-info__icon"><i class="ti-email"></i></span>
+            <div class="media-body">
+                <a href="mailto:bsaqmola@mail.ru">bsaqmola@mail.ru</a>
+              <p>Бізге кез келген уақытта сұрауыңызды жіберіңіз!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================ contact section end ================= -->
+
+<!-- footer part start-->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="single-footer-widget footer_1">
+                        <a href="index.html"> <img src="../../img/Mirasss_logos.svg" alt=""> </a>
+                        <p>Достигни своей цели вместе с Bolashaq saraіy!</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-4">
+                    <div class="single-footer-widget footer_2">
+                        <h4>Новостная рассылка</h4>
+                        <p>Будьте в курсе наших последних тенденций
+                        </p>
+                        <form action="#">
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder='Enter email address'
+                                           onfocus="this.placeholder = ''"
+                                           onblur="this.placeholder = 'Enter email address'">
+                                    <div class="input-group-append">
+                                        <button class="btn btn_1" type="button"><i class="ti-angle-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="social_icon">
+                            <a href="https://www.facebook.com/Bsaqmola"> <i class="ti-facebook"></i> </a>
+                            <a href="https://www.instagram.com/bs_aqmola/"> <i class="ti-instagram"></i> </a>
+                            <a href="https://www.youtube.com/channel/UCho9-OqZYnnaxiOyAJZFK3w"> <i class="ti-youtube"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-md-4">
+                    <div class="single-footer-widget footer_2">
+                        <h4>Свяжитесь с нами</h4>
+                        <div class="contact_info">
+                            <p><span> Адрес :</span>г.Кокшетау мкр.Коктем 9/1</p>
+                            <p><span> Телефон :</span> +7 716 251 01 37 </p>
+                            <p><span> Email : </span><a href="mailto:bsaqmola@mail.ru">bsaqmola@mail.ru</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="copyright_part_text text-center">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <p class="footer-text m-0">Bolashaq Saraiy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- footer part end-->
+
+<!-- jquery plugins here-->
+<!-- jquery -->
+<script src="../../js%20-%20does%20not%20work/jquery-1.12.1.min.js"></script>
+<!-- popper js - does not work -->
+<script src="../../js%20-%20does%20not%20work/popper.min.js"></script>
+<!-- bootstrap js - does not work -->
+<script src="../../js%20-%20does%20not%20work/bootstrap.min.js"></script>
+<!-- easing js - does not work -->
+<script src="../../js%20-%20does%20not%20work/jquery.magnific-popup.js"></script>
+<!-- swiper js - does not work -->
+<script src="../../js%20-%20does%20not%20work/swiper.min.js"></script>
+<script src="../../js%20-%20does%20not%20work/jquery.nice-select.min.js"></script>
+<!-- swiper js - does not work -->
+<script src="../../js%20-%20does%20not%20work/masonry.pkgd.js"></script>
+<!-- particles js - does not work -->
+<script src="../../js%20-%20does%20not%20work/owl.carousel.min.js"></script>
+<!-- contact js - does not work -->
+<script src="../../js%20-%20does%20not%20work/jquery.ajaxchimp.min.js"></script>
+<script src="../../js%20-%20does%20not%20work/jquery.form.js"></script>
+<script src="../../js%20-%20does%20not%20work/jquery.validate.min.js"></script>
+<script src="../../js%20-%20does%20not%20work/mail-script.js"></script>
+<script src="../../js%20-%20does%20not%20work/contact.js"></script>
+
+<!-- slick js - does not work -->
+<script src="../../js%20-%20does%20not%20work/slick.min.js"></script>
+<script src="../../js%20-%20does%20not%20work/jquery.counterup.min.js"></script>
+<script src="../../js%20-%20does%20not%20work/waypoints.min.js"></script>
+<!-- custom js - does not work -->
+<script src="../../js%20-%20does%20not%20work/custom.js"></script>
+</body>
+
+</html>
